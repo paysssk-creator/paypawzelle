@@ -1,0 +1,12 @@
+curl --request POST \
+  --url https://api.privy.io/v1/wallets/{wallet_id}/rpc \
+  --header 'Authorization: Basic <encoded-value>' \
+  --header 'Content-Type: application/json' \
+  --header 'privy-app-id: <privy-app-id>' \
+  --data '{
+  "method": "personal_sign",
+  "params": {
+    "message": "Hello from Privy!",
+    "encoding": "utf-8"
+  }
+}'
