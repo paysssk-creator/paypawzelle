@@ -1,0 +1,16 @@
+curl --request POST \
+  --url https://api.privy.io/v1/wallets/{wallet_id}/rpc \
+  --header 'Authorization: Basic <encoded-value>' \
+  --header 'Content-Type: application/json' \
+  --header 'privy-app-id: <privy-app-id>' \
+  --data '{
+  "method": "eth_sendTransaction",
+  "caip2": "eip155:11155111",
+  "chain_type": "ethereum",
+  "params": {
+    "transaction": {
+      "to": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045",
+      "value": 1000000000000000
+    }
+  }
+}'
