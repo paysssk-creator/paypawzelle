@@ -1,0 +1,8 @@
+{
+  "method": "eth_sendTransaction",
+  "data": {
+    "hash": "0x7c91ba85d67ef92cc15f3e9c8d8c5788e982cf83fabe9bfcc66a747aa0bd3701",
+    "caip2": "eip155:11155111",
+    "transaction_id": "d2obiyxnblv7jzp73b8scqa8"
+  }
+}
