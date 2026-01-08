@@ -1,0 +1,8 @@
+curl --request POST \
+  --url https://api.privy.io/v1/wallets \
+  --header 'Authorization: Basic <encoded-value>' \
+  --header 'Content-Type: application/json' \
+  --header 'privy-app-id: <privy-app-id>' \
+  --data '{
+  "chain_type": "ethereum"
+}'
