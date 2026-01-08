@@ -1,0 +1,13 @@
+curl --request POST \
+  --url https://api.privy.io/v1/users \
+  --header 'Authorization: Basic <encoded-value>' \
+  --header 'Content-Type: application/json' \
+  --header 'privy-app-id: <privy-app-id>' \
+  --data '{
+  "linked_accounts": [
+    {"type": "email", "address": "batman@privy.io"}
+  ],
+  "wallets": [
+    {"chain_type": "ethereum"}
+  ]
+}'
