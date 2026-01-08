@@ -1,0 +1,7 @@
+{
+  "method": "personal_sign",
+  "data": {
+    "signature": "0x292d67e9c5178447f1c5344b3122997dfba8f00e43102d0b746301e9b4afbbf67d952bf870878d92b8eb066da205840458c0a5fb3f53253dbe1adf9c143678311c",
+    "encoding": "hex"
+  }
+}
